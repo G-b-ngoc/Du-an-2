@@ -1,0 +1,83 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("");
+  background-size: 1800px 1000px;
+  display: flex;
+}
+
+/* Ảnh avatar bo tròn */
+
+#contact-1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50px; /* Bo tròn góc */
+  border: 5px solid #000; /* Viền */
+  object-fit: cover; /* Đảm bảo hình ảnh vừa khít */
+}
+
+#contact-2 {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #6e19f8e1; /* Viền */
+  object-fit: cover; /* Đảm bảo hình ảnh vừa khít */
+  text-align: center;
+}
+
+#lienket {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* nền Button */
+
+.contect-button {
+  background: linear-gradient(45deg, #c52850, #fd2ca6);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 150%;
+}
+
+.contect-button:hover {
+  background: linear-gradient(55deg, #ff004cb6, #0004ff);
+  box-shadow: 0 50px 14px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+}
+
+.contect-button:active {
+  box-shadow: 0 50px 50px rgb(253, 0, 0);
+  transform: translateY(0);
+}
+
+form {
+  margin-top: auto;
+}
+
+.form {
+  background-color: #3498db;
+  border: 2px solid #2980b9;
+}
+
+#tect-01 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+#tect-02 {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
